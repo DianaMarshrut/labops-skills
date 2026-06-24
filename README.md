@@ -49,34 +49,38 @@ AI-помощника.
 
 ## Установка
 
-Навыки лежат в `~/.claude/skills/`. После установки Claude Code подхватывает их на
-следующей сессии.
+Claude Code ищет навыки в папке `~/.claude/skills/`. Поэтому каталог клонируем
+сразу туда.
 
-**Весь каталог сразу:**
+**Скачать весь каталог:**
 
 ```bash
-git clone https://github.com/DianaMarshrut/labops-skills.git ~/labops-skills
+cd ~/.claude/skills
+git clone https://github.com/DianaMarshrut/labops-skills.git labops
 ```
+
+Это положит репозиторий в `~/.claude/skills/labops/`. Сам по себе клон навыки ещё
+не включает — Claude активирует только папки, лежащие прямо в `~/.claude/skills/`.
+Поэтому вторым шагом подключаем нужные навыки.
 
 **Подключить один навык** (например, `hiring-kit`):
 
 ```bash
-# Симлинк (рекомендуется — обновляется через git pull каталога):
-ln -s ~/labops-skills/skills/hiring-kit ~/.claude/skills/hiring-kit
+# Симлинк (рекомендуется — обновляется вместе с каталогом через git pull):
+ln -s ~/.claude/skills/labops/skills/hiring-kit ~/.claude/skills/hiring-kit
 
-# Либо копией:
-cp -r ~/labops-skills/skills/hiring-kit ~/.claude/skills/
+# Либо копией (не обновляется автоматически):
+cp -r ~/.claude/skills/labops/skills/hiring-kit ~/.claude/skills/
 ```
 
-После установки просто сформулируйте задачу обычными словами — помощник сам
-выберет навык.
+После этого сформулируйте задачу обычными словами — помощник сам выберет навык.
 
 ---
 
 ## Структура репозитория
 
 ```
-labops-skills/
+labops/                  # папка после git clone (репозиторий labops-skills)
 ├── README.md            # этот файл
 ├── LICENSE              # MIT
 ├── CATALOG.md           # полный каталог навыков с триггерами
@@ -116,7 +120,8 @@ labops-skills/
 написать инструкцию `SKILL.md`, протестировать и улучшить.
 
 ```bash
-git clone https://github.com/anthropics/skills.git ~/.claude/skills/anthropics
+cd ~/.claude/skills
+git clone https://github.com/anthropics/skills.git anthropics
 ```
 
 После установки в Claude Code: «Создай навык для <ваша задача>» — активируется
