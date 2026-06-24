@@ -11,25 +11,25 @@
 
 ## Что внутри
 
-- **`skills/`** — 15 авторских навыков курса. Публикуются здесь файлами, готовы к установке.
-- **`blocks/`** — 10 тематических блоков курса. Для каждого блока — какой навык под какую задачу.
+- **`skills/`** — 15 авторских навыков. Публикуются здесь файлами, готовы к установке.
+- **`topics/`** — 10 тематических направлений навыков. Для каждого — какой навык под какую задачу.
 - **`CATALOG.md`** — полный каталог: 15 авторских навыков + проверенные навыки из открытых
   источников (со ссылками на установку, без перезаливки чужих файлов).
 
-## 10 блоков курса
+## 10 тематических направлений навыков
 
-| Блок | Файл | О чём |
+| Направление | Файл | О чём |
 |---|---|---|
-| 1. Операционка и HR | [blocks/operations-hr.md](blocks/operations-hr.md) | найм, онбординг, мотивация, оценка, KPI, аудит процессов |
-| 2. Финансы | [blocks/finance.md](blocks/finance.md) | P&L, план-факт, анализ расходов |
-| 3. Стратегия | [blocks/strategy.md](blocks/strategy.md) | BSC/OKR, операционный план, запуск проектов |
-| 4. Внедрение AI | [blocks/ai-adoption.md](blocks/ai-adoption.md) | регламент по AI, аудит готовности |
-| 5. Маркетинг | [blocks/marketing.md](blocks/marketing.md) | копирайтинг, конверсия, контент-стратегия, запуски |
-| 6. Исследования | [blocks/research.md](blocks/research.md) | веб-ресёрч, конкуренты, соцсети, расшифровки |
-| 7. Контент и видео | [blocks/content-video.md](blocks/content-video.md) | Reels, озвучка, презентации, изображения |
-| 8. Документы и отчёты | [blocks/documents-reports.md](blocks/documents-reports.md) | отчёты, протоколы встреч, Word/PPT/PDF/Excel |
-| 9. Разработка | [blocks/development.md](blocks/development.md) | MCP, создание навыков, дизайн интерфейсов |
-| 10. Инфраструктура помощника | [blocks/agent-infra.md](blocks/agent-infra.md) | Telegram, браузер, поиск навыков, совет AI |
+| 1. Операционка и HR | [topics/operations-hr.md](topics/operations-hr.md) | найм, онбординг, мотивация, оценка, KPI, аудит процессов |
+| 2. Финансы | [topics/finance.md](topics/finance.md) | P&L, план-факт, анализ расходов |
+| 3. Стратегия | [topics/strategy.md](topics/strategy.md) | BSC/OKR, операционный план, запуск проектов |
+| 4. Внедрение AI | [topics/ai-adoption.md](topics/ai-adoption.md) | регламент по AI, аудит готовности |
+| 5. Маркетинг | [topics/marketing.md](topics/marketing.md) | копирайтинг, конверсия, контент-стратегия, запуски |
+| 6. Исследования | [topics/research.md](topics/research.md) | веб-ресёрч, конкуренты, соцсети, расшифровки |
+| 7. Контент и видео | [topics/content-video.md](topics/content-video.md) | Reels, озвучка, презентации, изображения |
+| 8. Документы и отчёты | [topics/documents-reports.md](topics/documents-reports.md) | отчёты, протоколы встреч, Word/PPT/PDF/Excel |
+| 9. Разработка | [topics/development.md](topics/development.md) | MCP, создание навыков, дизайн интерфейсов |
+| 10. Инфраструктура помощника | [topics/agent-infra.md](topics/agent-infra.md) | Telegram, браузер, поиск навыков, совет AI |
 
 ## Установка
 
