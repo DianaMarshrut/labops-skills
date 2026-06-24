@@ -6,6 +6,8 @@
 ## Спутники
 
 - `mcp-builder` (Anthropic) — сборка MCP-серверов.
+- `mcp-api-build` (agentos-skills-public) — проектирование REST API и MCP-серверов по стандартам.
+- `cross-review` (agentos-skills-public) — кросс-ревью кода и PR между агентами.
 - `skill-creator` (Anthropic) — создание собственных навыков.
 - `frontend-design` (Anthropic) — визуальный дизайн интерфейсов.
 - `web-design-guidelines` (skills.sh) — ревью UI на соответствие гайдлайнам.

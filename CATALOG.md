@@ -54,6 +54,22 @@
 | Навык | Что делает |
 |---|---|
 | `reels` | Производственное ТЗ на Instagram Reels: текст для суфлёра + бриф монтажёру (HTML). |
+| `threads-content` | Telegram-пост → тред в Threads (5–8 постов) с баннерами и CTA. |
+| `youtube-producer` | Названия, обложки и оформление для YouTube-видео. |
+| `topic-monitor` | Автомониторинг тем (релизы, цены, новости) с умными алертами и дайджестами. |
+| `datawrapper` | Графики и таблицы из CSV/JSON, публикация и экспорт PNG. |
+| `excalidraw` | Схемы и диаграммы. |
+| `miro-board` | Сборка слайдов/презентаций уроков на доске Miro. Заточен под запись видео-уроков, фиксированный стиль, нужен доступ к Miro. |
+| `higgsfield-generate` | Генерация изображений и видео. |
+| `higgsfield-soul-id` | Генерация аватаров/персонажей (Soul ID). |
+| `higgsfield-product-photoshoot` | Предметная съёмка товара (AI). |
+| `higgsfield-marketplace-cards` | Карточки товаров для маркетплейсов. |
+| `mcp-api-build` | Проектирование REST API и MCP-серверов по стандартам. |
+| `cross-review` | Кросс-ревью кода и PR между агентами. |
+| `agent-introspection` | Самоаудит и проактивное обучение AI-помощника. |
+| `learnings` | Фиксация уроков после правок и ошибок. |
+| `memory-audit` | Аудит памяти и состояния AI-помощника. |
+| `server-doctor` | Диагностика и починка Linux/macOS-серверов. |
 
 ### Из Anthropic Skills — проприетарная лицензия Anthropic
 Репозиторий: https://github.com/anthropics/skills

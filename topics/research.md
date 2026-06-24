@@ -10,5 +10,6 @@
 - `twitter` (agentos) — чтение твитов, тредов, профилей.
 - `instagram-superpower` (agentos) — аналитика Instagram.
 - `markdown-new` (agentos) — чистый Markdown с любой страницы.
+- `topic-monitor` (agentos-skills-public) — автомониторинг тем (релизы, цены, новости) с алертами и дайджестами.
 - `deep-research` (skills.sh) — глубокий многоисточниковый ресёрч.
 - `customer-research`, `competitor-profiling` (skills.sh) — клиенты и конкуренты.
