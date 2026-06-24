@@ -23,7 +23,7 @@ SOFTWARE.
 ---
 
 Note: The MIT license above covers the 15 original skills authored for the
-LabOps.ai course (the folders under `skills/`). Third-party skills referenced
+AI LAB course (the folders under `skills/`). Third-party skills referenced
 in CATALOG.md are NOT redistributed here — they remain under their own
 licenses at their original sources (Anthropic, public-gbrain-agentos,
 Superpowers, Codex plugin, skills.sh).
